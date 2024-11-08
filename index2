@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <h1>Publications</h1>
+        <h1>Sébastien Vandenitte</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="publications.html">Publications</a>
@@ -26,65 +26,22 @@
     </header>
     <section>
 
-        <!-- Publications Upcoming -->
-        <h3>Upcoming</h3>
-        <ul>
-            <li style="margin-bottom: 15px;">
-                <strong>Lepeut, A., Lombart, C., Vandenitte, S. & Meurant, L. (upcoming).</strong> Make it a Double: The Building and Use of the LSFB and FRAPé Corpora to Study and Compare French Belgian Sign Language and Belgian French. In T. Leuschner, A., Vajnovszki, G. Delaby & J. Barðdal (Eds.), How to Do Things with Corpora: Methodological Issues and Case Studies on Grammar.
-            </li>
-        </ul>
+        <h3>About me</h3>
+        <p>My name is Sébastien Vandenitte. I am a postdoctoral researcher at the <a href="https://www.jyu.fi/en/humsoc/kivi/sign-language-centre" target="_blank">Sign Language Centre</a> of the University of Jyväskylä (JYU), Finland, working as a member of the <a href="https://www.jyu.fi/en/projects/showtell-showing-and-telling-in-finnish-sign-language" target="_blank">ShowTell</a> project.</p>
 
-        <!-- Publications from 2024 -->
-        <h3>2024</h3>
-        <ul>
-            <li style="margin-bottom: 15px;">
-                <strong>Lepeut, A., Lombart, C., Vandenitte, S., & Meurant, L. (2024).</strong> Spoken and signed languages hand in hand: parallel and directly comparable corpora of French Belgian Sign Language (LSFB) and French. <em>Corpora, 19(2)</em>, 241-253. <a href="https://doi.org/10.3366/cor.2024.0309">https://doi.org/10.3366/cor.2024.0309</a>
-            </li>
-            <li style="margin-bottom: 15px;">
-                <strong>Vandenitte, S. (2024).</strong> Making Referents Seen and Heard: Comparing constructed action practices in LSFB (French Belgian Sign Language) and Belgian French [Doctoral dissertation]. <a href="https://pure.unamur.be/ws/portalfiles/portal/102803119/VandenitteSebastien_2024_these.pdf">https://pure.unamur.be/ws/portalfiles/portal/102803119/VandenitteSebastien_2024_these.pdf</a>
-            </li>
-        </ul>
+        <h3>Background</h3>
+        <p>I hold a Bachelor’s degree in Modern Languages and Literatures and a Master’s degree in Linguistics from Université Libre de Bruxelles (ULB). Since completing my dissertation at the <a href="https://www.unamur.be/en/entity/laboratoire-de-langue-des-signes-de-belgique-francophone" target="_blank">LSFB-Lab</a>, I hold a PhD degree in Languages, Literatures, and Translation from the Université de Namur (UNamur).</p>
 
-        <!-- Publications from 2023 -->
-        <h3>2023</h3>
+        <h3>Research interests</h3>
+<p>My research focuses on:</p>
         <ul>
-            <li style="margin-bottom: 15px;">
-                <strong>Vandenitte, S. (2023).</strong> When referents are seen and heard: A comparative study of constructed action in the discourse of LSFB (French Belgian Sign Language) signers and Belgian French speakers. In L. Gardelle, L. Vincent-Durroux, & H. Vinckel-Roisin (Eds.), <em>Studies in Language Companion Series: From conventions to pragmatics</em> (pp. 127 - 149). (Studies in Language Companion Series; Vol. 228). <a href="https://doi.org/10.1075/slcs.228.07van">https://doi.org/10.1075/slcs.228.07van</a>
-            </li>
+            <li>the comparison of signed and spoken languages, in particular LSFB (Langue des signes de Belgique Francophone or French Belgian Sign Language) and Belgian French</li>
+            <li>semiotic diversity across communities and communication contexts</li>
+            <li>depiction and iconicity</li>
+            <li>the creation and use of multimodal language corpora</li>
         </ul>
-
-        <!-- Publications from 2022 -->
-        <h3>2022</h3>
-        <ul>
-            <li style="margin-bottom: 15px;">
-                <strong>Vandenitte, S. (2022).</strong> Making referents seen and heard across signed and spoken languages: Documenting and interpreting cross-modal differences in the use of enactment. <em>Frontiers in Psychology, 13</em>, 784339. <a href="https://doi.org/10.3389/fpsyg.2022.784339">https://doi.org/10.3389/fpsyg.2022.784339</a>
-            </li>
-            <li style="margin-bottom: 15px;">
-                <strong>Vandenitte, S. (2022).</strong> Showing where you stand: The depictive potential of the lexical sign LS in LSFB conversations about language attitudes. <em>Belgian Journal of Linguistics, 36(1)</em>, 46-72. <a href="https://doi.org/10.1075/bjl.00071.van">https://doi.org/10.1075/bjl.00071.van</a>
-            </li>
-        </ul>
-
-        <!-- Publications from 2021 -->
-        <h3>2021</h3>
-        <ul>
-            <li style="margin-bottom: 15px;">
-                <strong>Vandenitte, S. (2021).</strong> Construire l’action pour rendre les référents visibles en LSFB: Une étude pilote des mouvements corporels dépictifs. In S. Vandenitte, A. Lepeut, & L. Meurant (Eds.), <em>Travaux du Cercle belge de linguistique</em> (Vol. 15). <a href="https://sites.uclouvain.be/bkl-cbl/fr/publications/travaux-du-cbl/volume-15-2021/">https://sites.uclouvain.be/bkl-cbl/fr/publications/travaux-du-cbl/volume-15-2021/</a>
-            </li>
-        <div class="single-publication">
-            <p><strong>Vandenitte, S., Lepeut, A., & Meurant, L. (Eds.). (2021).</strong> <em>Travaux du Cercle belge de linguistique</em> (Vol. 15). <a href="https://sites.uclouvain.be/bkl-cbl/fr/publications/travaux-du-cbl/volume-15-2021/">https://sites.uclouvain.be/bkl-cbl/fr/publications/travaux-du-cbl/volume-15-2021/</a></p>
-        </div>
-        
-        <!-- Publications from 2019 -->
-        <h3>2019</h3>
-        <ul>
-            <li style="margin-bottom: 15px;">
-                <strong>Vandenitte, S. (2019).</strong> Une approche pragmatique du transfert personnel en langues des signes: La construction du discours et de l’action à visée illustrative. In C. Béchet, L. Brems, & M. Steffens (Eds.), <em>Travaux du Cercle Belge de Linguistique</em> (Vol. 13). <a href="https://sites.uclouvain.be/bkl-cbl/en/journals/papers-of-the-lsb/volume-13-2019/">https://sites.uclouvain.be/bkl-cbl/en/journals/papers-of-the-lsb/volume-13-2019/</a>
-            </li>
-        </ul>
-
     </section>
 </body>
 </html>
-
 
 
