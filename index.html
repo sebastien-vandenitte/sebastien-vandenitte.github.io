@@ -12,9 +12,9 @@
             line-height: 1.6;
             margin: 0;
             padding: 0 15px;
-            text-align: justify;
+            text-align: justify; /* Justifies text in the body */
         }
-        section {
+        header, section {
             max-width: 800px;
             margin: 0 auto;
         }
@@ -23,9 +23,6 @@
             background-color: black; /* Set background to black */
             padding: 20px;
             text-align: center;
-            width: 100%; /* Ensure the header spans the full width */
-            position: relative;
-            top: 0;
         }
         header h1 {
             color: white; /* Set text color to white */
@@ -40,14 +37,13 @@
         ul {
             padding-left: 20px;
         }
-
         /* Styling for the image */
-        .profile-img {
-            border-radius: 50%;  /* Makes the image round */
-            width: 150px;        /* Sets the width of the image */
-            height: 150px;       /* Sets the height of the image */
-            object-fit: cover;   /* Ensures the image fills the circle without stretching */
-            margin-bottom: 20px; /* Adds space below the image */
+        .profile-image {
+            width: 200px; /* Set image width */
+            height: auto;  /* Maintain aspect ratio */
+            border-radius: 50%; /* Make the image circular */
+            display: block;
+            margin: 20px auto;
         }
     </style>
 </head>
@@ -61,19 +57,18 @@
     </header>
 
     <section>
-        <!-- Profile Image -->
-        <img src="https://github.com/sebastienvandenitte/your-repository-name/raw/main/VANDENITTE_Sebastien.jpg" alt="Sébastien Vandenitte" class="profile-img">
-
         <h2>About Me</h2>
-        <p>My name is Sébastien Vandenitte. I am a postdoctoral researcher at the Sign Language Centre of the University of Jyväskylä (JYU), Finland, working as a member of the ShowTell project.</p>
+        <!-- Display the profile image -->
+        <img src="assets/images/VANDENITTE_Sebastien.jpg" alt="Sébastien Vandenitte" class="profile-image">
+        <p>My name is Sébastien Vandenitte. I am a postdoctoral researcher at the <a href="https://www.jyu.fi/en/humsoc/kivi/sign-language-centre" target="_blank">Sign Language Centre</a> of the University of Jyväskylä (JYU), Finland, working as a member of the <a href="https://www.jyu.fi/en/projects/showtell-showing-and-telling-in-finnish-sign-language" target="_blank">ShowTell</a> project.</p>
     
         <h3>Background</h3>
-        <p>I hold a Bachelor’s degree in Modern Languages and Literatures and a Master’s degree in Linguistics from Université Libre de Bruxelles (ULB). Since completing my dissertation at the LSFB-Lab, I hold a PhD degree in Languages, Literatures, and Translation from the Université de Namur (UNamur).</p>
+        <p>I hold a Bachelor’s degree in Modern Languages and Literatures and a Master’s degree in Linguistics from Université Libre de Bruxelles (ULB). Since completing my dissertation at the <a href="https://www.unamur.be/en/entity/laboratoire-de-langue-des-signes-de-belgique-francophone" target="_blank">LSFB-Lab</a>, I hold a PhD degree in Languages, Literatures, and Translation from the Université de Namur (UNamur).</p>
 
         <h3>Research Interests</h3>
         <p>My research focuses on:</p>
         <ul>
-            <li>the comparison of signed and spoken languages, in particular LSFB (<em>Langue des Signes de Belgique Francophone</em>, i.e., French Belgian Sign Language) and Belgian French</li>
+            <li>the comparison of signed and spoken languages, in particular LSFB (Langue des signes de Belgique Francophone or French Belgian Sign Language) and Belgian French</li>
             <li>semiotic diversity across communities and communication contexts</li>
             <li>depiction and iconicity</li>
             <li>the creation and use of multimodal language corpora</li>
@@ -81,6 +76,5 @@
     </section>
 </body>
 </html>
-
 
 
