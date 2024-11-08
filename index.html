@@ -14,28 +14,49 @@
             padding: 0 15px;
             text-align: justify; /* Justifies text in the body */
         }
-        header, section {
+
+        /* Ensure the header does not conflict with other styles */
+        header {
+            background-color: #f4f4f4; /* A light background to avoid conflict with the black background */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box; /* Ensure padding is included in the total width */
+        }
+
+        header h1 {
+            margin: 0; /* Remove default margin for better alignment */
+            color: #333; /* Ensure text is dark for readability */
+        }
+
+        /* Navigation links inside header */
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333; /* Ensure link color is consistent */
+        }
+
+        /* Container to limit content width */
+        section {
             max-width: 800px;
             margin: 0 auto;
         }
-        /* Styling for the header and main title */
-        header {
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0; /* Remove default margin for better alignment */
-        }
+
+        /* Styling for section headings */
         h2, h3 {
             color: #333;
         }
+
+        /* Styling for lists */
         p, ul {
             color: #555;
         }
+
         ul {
             padding-left: 20px;
         }
-        /* Styling for the image */
+
+        /* Styling for the profile image */
         .profile-image {
             width: 200px; /* Set image width */
             height: auto;  /* Maintain aspect ratio */
