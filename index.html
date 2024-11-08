@@ -14,6 +14,23 @@
             list-style-type: disc; /* Enables bullet points */
             padding-left: 20px; /* Adds indentation to the list items */
         }
+
+        /* New styling for text and image layout */
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .text-content {
+            flex: 1; /* Take up available space */
+        }
+
+        .image-content img {
+            max-width: 200px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 10px; /* Optional: Adds rounded corners */
+        }
     </style>
 </head>
 <body>
@@ -24,23 +41,30 @@
             <a href="publications.html">Publications</a>
         </nav>
     </header>
-    <section>
+    
+    <section class="content-wrapper">
+        <!-- Text Content -->
+        <div class="text-content">
+            <h3>About me</h3>
+            <p>My name is Sébastien Vandenitte. I am a postdoctoral researcher at the <a href="https://www.jyu.fi/en/humsoc/kivi/sign-language-centre" target="_blank">Sign Language Centre</a> of the University of Jyväskylä (JYU), Finland, working as a member of the <a href="https://www.jyu.fi/en/projects/showtell-showing-and-telling-in-finnish-sign-language" target="_blank">ShowTell</a> project.</p>
 
-        <h3>About me</h3>
-        <p>My name is Sébastien Vandenitte. I am a postdoctoral researcher at the <a href="https://www.jyu.fi/en/humsoc/kivi/sign-language-centre" target="_blank">Sign Language Centre</a> of the University of Jyväskylä (JYU), Finland, working as a member of the <a href="https://www.jyu.fi/en/projects/showtell-showing-and-telling-in-finnish-sign-language" target="_blank">ShowTell</a> project.</p>
+            <h3>Background</h3>
+            <p>I hold a Bachelor’s degree in Modern Languages and Literatures and a Master’s degree in Linguistics from Université Libre de Bruxelles (ULB). Since completing my dissertation at the <a href="https://www.unamur.be/en/entity/laboratoire-de-langue-des-signes-de-belgique-francophone" target="_blank">LSFB-Lab</a>, I hold a PhD degree in Languages, Literatures, and Translation from Université de Namur (UNamur).</p>
 
-        <h3>Background</h3>
-        <p>I hold a Bachelor’s degree in Modern Languages and Literatures and a Master’s degree in Linguistics from Université Libre de Bruxelles (ULB). Since completing my dissertation at the <a href="https://www.unamur.be/en/entity/laboratoire-de-langue-des-signes-de-belgique-francophone" target="_blank">LSFB-Lab</a>, I hold a PhD degree in Languages, Literatures, and Translation from Université de Namur (UNamur).</p>
+            <h3>Research interests</h3>
+            <p>My research focuses on:</p>
+            <ul>
+                <li>the comparison of signed and spoken languages, in particular LSFB (<em>Langue des Signes de Belgique Francophone</em> or French Belgian Sign Language) and Belgian French</li>
+                <li>semiotic diversity across communities and communication contexts</li>
+                <li>depiction and iconicity</li>
+                <li>the creation and use of multimodal language corpora</li>
+            </ul>
+        </div>
 
-        <h3>Research interests</h3>
-        <p>My research focuses on:</p>
-        <ul>
-            <li>the comparison of signed and spoken languages, in particular LSFB (<em>Langue des Signes de Belgique Francophone</em> or French Belgian Sign Language) and Belgian French</li>
-            <li>semiotic diversity across communities and communication contexts</li>
-            <li>depiction and iconicity</li>
-            <li>the creation and use of multimodal language corpora</li>
-        </ul>
+        <!-- Image Content -->
+        <div class="image-content">
+            <img src="https://raw.githubusercontent.com/sebastienvandenitte/sebastienvandenitte.github.io/main/VANDENITTE_Sebastien.jpg" alt="Sebastien Vandenitte">
+        </div>
     </section>
 </body>
 </html>
-
