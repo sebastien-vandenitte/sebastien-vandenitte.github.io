@@ -24,3 +24,12 @@ section {
     max-width: 800px;
     margin: auto;
 }
+
+a {
+    color: blue;
+    text-decoration: none; /* Removes underline if you prefer */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for accessibility */
+}
